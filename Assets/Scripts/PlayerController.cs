@@ -5,7 +5,6 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
     [SerializeField] private float speed = 20.0f;
-    [SerializeField] private float cameraSpeed = 5.0f;
     [SerializeField] private float turnSpeed = 5.0f;
     public float horizontalInput;
     public float forwardInput;
